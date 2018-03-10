@@ -3,13 +3,15 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
-      
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
      <header class="main-header">
       <nav class="main-nav">
            <div class="Sedona-logo">
-            <img src="#" width="140" height="71" alt="Sedona city logo">
+            <a href="index.html">
+            <img src="img/Sedona-logo.png" width="140" height="71" alt="Sedona city logo">
+            </a>
            </div>
             <ul class="site-navigation">
                 <li><a href="#">информация</a></li>
@@ -23,15 +25,72 @@
         <section class="filter">
             <h2 class="visually-hidden">Фильтр гостиниц</h2>
             <!-- ФОРМА -->
+            <form class="price-hotels" method="post" action="https://echo.htmlacademy.ru" oninput="#">
+               
+             <fieldset>
+                <legend>инфраструктура:</legend>
+                <ul>
+                 <li class="filter-options">
+                      <label>
+                      <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="pool">
+                       бассейн
+                      </label>
+                 </li>
+                 <li class="filter-options">
+                      <label>
+                      <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="parking">
+                      парковка
+                     </label>
+                 </li>
+                 <li class="filter-options">
+                     <label>
+                     <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="wi-fi">
+                     wi-fi
+                     </label>
+                 </li>
+                </ul>
+             </fieldset>
+             <fieldset>
+                <legend>тип жилья:</legend>
+                <ul>
+                 <li class="filter-options">
+                      <label>
+                      <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="hotel">
+                      гостиница
+                      </label>
+                 </li>
+                 <li class="filter-options">
+                      <label>
+                      <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="motel">
+                      мотель
+                      </label>
+                 </li>
+                 <li class="filter-options">
+                      <label>
+                      <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="apartment">
+                      апартаменты
+                      </label>
+                 </li>
+                </ul>
+              </fieldset>
+              <fieldset>
+                 <legend>стоимость в сутки (р):</legend>
+                 от <output name="priceput">0</output>
+                 <input type="range" id="#" name="price" min="100" max="5000" step="100" value="3000">
+                 до <output name="priceput">3000</output>
+                 <br>
+                 <button type="submit">показать</button>
+              </fieldset>
+            </form>
         </section> 
         <section class="sort">
             <h2 class="visually-hidden">Результат поиска гостиниц</h2>
             <span class="sort-find"><b>найдено: 3</b></span>
             <span class="sort-word"><b>сортировка:</b></span>
             <ul class="sort-item">
-            <li  class="sort-active">по цене</li>
-            <li>по типу</li>
-            <li>по рейтингу</li>
+            <li  class="sort-active"><button class="sort-button">по цене</button></li>
+            <li><button class="sort-button">по типу</button></li>
+            <li><button class="sort-button">по рейтингу</button></li>
             </ul>
             <!-- декор. переключатели -->
         </section>

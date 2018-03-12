@@ -95,20 +95,24 @@
          <section class="form">
              <h3>заинтересовались?</h3>  
              <p>укажите предпологаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в седоне</p>
-             <span class="button">поиск гостиницы в седоне</span>
+             <button class="button">поиск гостиницы в седоне</button>
              <form class="hotels-in-sedona" method="post" action="https://echo.htmlacademy.ru">
+                 <p class="appointment-item">
                   <label for="date-of-arrival">дата заезда:</label>
-                    <input type="date" name="date-of-arrival" id="date-of-arrival">
-                  <br>
+                    <input type="text" name="date-of-arrival" id="date-of-arrival">
+                 </p>
+                 <p class="appointment-item">
                   <label for="date-of-departure">дата выезда:</label>
-                    <input type="date" name="date-of-departure" id="date-of-departure">
-                  <br>
+                    <input type="text" name="date-of-departure" id="date-of-departure">
+                 </p>
+                 <p class="appointment-item">
                   <label for="number-of-adults">взрослые</label>
-                    <input type="number" min="0" max="99" step="1" id="number-of-adults" name="number-of-adults">
+                    <input type="text" id="number-of-adults" name="number-of-adults">
                   <label for="number-of-children">дети</label>
-                    <input type="number" min="0" max="99" step="1" id="number-of-children" name="number-of-children">
-                 <br>
+                    <input type="text" id="number-of-children" name="number-of-children">
+                 </p>
                  <button type="submit">найти</button>
+                 
              </form>
          </section>
          <section class="map">

@@ -37,7 +37,7 @@ a {
 
 .site-navigation .Sedona-logo {
     padding: 0px 0px 0px 0px;
-    margin: 0px 0px 0px 0px;
+    margin: 0px 0px 15px 0px;
     width: 244px;
 }
 
@@ -67,7 +67,8 @@ a {
 }
 .intro-welcome {
     width: 458px;
-    margin: 35px auto;
+    margin: 0px auto;
+    padding: 75px 0px 0px 0px;
 }
 /* // */
 

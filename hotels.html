@@ -3,6 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link href="css/normalize.css-master/normalize.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
@@ -27,12 +29,12 @@
             <!-- ФОРМА -->
             <form class="price-hotels" method="post" action="https://echo.htmlacademy.ru" oninput="#">
                
-             <fieldset>
+             <fieldset class="border-form border-form-left">
                 <legend>инфраструктура:</legend>
                 <ul>
                  <li class="filter-options">
                       <label>
-                      <input class="filter-input filter-input-checkbox" type="checkbox" name="pool">
+                      <input class="filter-input filter-input-checkbox" type="checkbox" name="pool" checked>
                        бассейн
                       </label>
                  </li>
@@ -50,36 +52,38 @@
                  </li>
                 </ul>
              </fieldset>
-             <fieldset>
+             <fieldset class="border-form border-form-left">
                 <legend>тип жилья:</legend>
                 <ul>
                  <li class="filter-options">
                       <label>
-                      <input class="filter-input filter-input-checkbox" type="checkbox" name="hotel">
+                      <input class="filter-input filter-input-checkbox" type="checkbox" name="hotel" checked>
                       гостиница
                       </label>
                  </li>
                  <li class="filter-options">
                       <label>
-                      <input class="filter-input filter-input-checkbox" type="checkbox" name="motel">
+                      <input class="filter-input filter-input-checkbox" type="checkbox" name="motel" checked>
                       мотель
                       </label>
                  </li>
                  <li class="filter-options">
                       <label>
-                      <input class="filter-input filter-input-checkbox" type="checkbox" name="apartment">
+                      <input class="filter-input filter-input-checkbox" type="checkbox" name="apartment" checked>
                       апартаменты
                       </label>
                  </li>
                 </ul>
               </fieldset>
-              <fieldset>
+              <fieldset class="border-form border-form-right">
+                
+                 
                  <legend>стоимость в сутки (р):</legend>
                  от <input type="text" name="priceput" value="0">
                  <input type="range" id="#" name="price" min="100" max="3000" step="100" value="3000">
                  до <input type="text" name="priceput" value="3000">
-                 <div class="button-form">
-                 <button type="submit">показать</button>
+                 <div class="button-form-wrapper">
+                 <button class="button-form" type="submit">показать</button>
                  </div>
               </fieldset>
             </form>

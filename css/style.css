@@ -1,3 +1,396 @@
+body {
+    width: 1200px;
+    margin: 0;
+    padding: 0;
+    font-family: "PT Sans", "Arial", sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #000000;
+    
+}
+a {
+    text-decoration: none;
+}
+
+
+
+
+/* Селекторы header */
+
+.site-navigation {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    
+}
+
+.site-navigation li {
+    padding: 15px 0px 0px 0px;
+    margin: 0px 0px -15px 0px;
+    width: 239px;
+    height: 40px;
+    text-align: center;
+}
+
+.site-navigation .Sedona-logo {
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    width: 244px;
+}
+
+
+.site-navigation a{
+    color: #000000;
+}
+
+/* // */
+
+
+
+.container {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+/* Селекторы блока intro */
 .intro {
+    height: 506px;
     background-color: darkgray;
+    background-image: url(/img/background-header.jpg);
+    background-repeat: no-repeat;
+    background-position: 0px -60px;
+}
+.intro-welcome {
+    width: 458px;
+    margin: 35px auto;
+}
+/* // */
+
+
+/* Селекторы блока slogan */
+.slogan {
+    padding-top: 1px;
+    height: 216px;
+}
+.slogan-center {
+    width: 492px;
+    height: 102px;
+    margin: 60px auto 53px auto;
+    text-align: center;
+}
+.slogan p {
+    margin: 0px;
+    padding: 0px;
+    font-weight: normal;
+}
+/* // */
+
+
+
+/* Селекторы блоков reason и reason-reverse */
+.reason,
+.reason-reverse {
+    margin: 0px;
+    padding: 0px;
+}
+
+.reason p,
+.reason-reverse p {
+    margin: 0px;
+    padding: 0px;
+   font-weight: normal; 
+}
+
+.reason h2,
+.reason-reverse h2 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.reason ul,
+.reason-reverse ul{
+    list-style: none;
+}
+
+
+.reason-bg-size {
+    margin: 0px;
+    padding: 1px 0px 0px 0px;
+    width: 400px;
+    height: 255px;
+    background-color: #81b3d2;
+    color: #ffffff;
+    text-align: center;
+}
+
+.reason-bg-size p {
+    margin: 20px 0px 0px 0px;
+    padding: 0px;
+}
+.reason-center {
+    padding: 0px;
+    margin: 45px 60px 30px 60px; 
+}
+.reason-flex {
+    width: 1200px;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+.reason-features {
+    width: 1200px;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+
+
+
+.reason-features-item {
+    text-align: center;
+    width: 400px;
+    height: 170px;
+    padding: 160px 50px 0px 50px;
+} 
+
+.reason-reverse-bg-size {
+    margin: 0px 0px 0px 0px;
+    padding: 1px 0px 0px 0px;
+    width: 400px;
+    height: 255px;
+    background-color: #81b3d2;
+    color: #ffffff;
+    text-align: center;
+    
+}
+.reason-reverse-flex {
+    width: 1200px;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+
+.reason-reverse-bg-size p {
+    margin: 20px 0px 0px 0px;
+    padding: 0px;
+}
+
+
+.reason-reverse-center {
+    padding: 0px;
+    margin: 49px 49px 35px 49px;
+}
+
+
+
+.reason-reverse-features {
+    width: 1200px;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+.reason-reverse-features-item {
+    width: 400px;
+    height: 206px;
+}
+
+.reason-reverse-features-item {
+    text-align: center;
+    margin: 50px 60px 0px 60px;
+}
+.reason-reverse-features-item p{
+ margin: 20px 0px 0px 0px;
+ padding: 0px;
+}
+
+.reason-reverse-features {
+    background-color: #eeeeee;
+}
+
+/* // */
+
+
+/* Селекторы блока form */
+
+.form-center {
+    height: 280px;
+    margin: 0px;
+    padding: 10px 0px 0px 0px;
+    text-align: center;
+}
+.form-center h3 {
+    font-size: 30px;
+    margin: 40px 0px 35px 0px;
+}
+
+.button-form-search {
+    padding: 0px;
+    margin: 0px;
+    width: 568px;
+    height: 86px;
+    font-size: 21px;
+    line-height: 26px;
+    background-color: #766357;
+    color: #ffffff;
+    border: 0px;
+    
+}
+.button-form-search:hover {
+    background-color: #604e43;
+}
+.button-form-search:active {
+    background-color: #503e33;
+    color: #7b6d65;
+}
+
+.hotels-in-sedona {
+    font: inherit;
+    margin: 0px auto;
+    width: 568px;
+    text-align: left;
+}
+.date-of-arrival,
+.date-of-departure,
+.number-of-adults,
+.number-of-children {
+    background-color: #f2f2f2;
+}
+.date-of-arrival:hover,
+.date-of-departure:hover,
+.number-of-adults:hover,
+.number-of-children:hover {
+    background-color: #ebebeb;
+}
+.date-of-arrival:focus,
+.date-of-departure:focus,
+.number-of-adults:focus,
+.number-of-children:focus {
+    background-color: #ffffff;
+}
+
+.button-search {
+    font: inherit;
+    width: 458px;
+    height: 58px;
+    margin: 0px;
+    padding: 0px;
+    font-size: 21px;
+    line-height: 26px;
+    color: #ffffff;
+    background-color: #81b3d2;
+    border: 0px;
+}
+.button-search:hover {
+    background-color: #669ec0;
+}
+.button-search:active {
+    background-color: #5496bd;
+    color: #88b6d1;
+}
+
+/*   //  */
+
+/*   Стили для подвала  */
+
+/*   //  */
+
+
+/*   CТРАНИЦА HOTEL  */
+/*   Стили для блока filter  */
+
+
+
+.filter {
+    margin: 0px;
+    padding: 0px;
+    height: 217px;
+    background-color: dimgray;
+    background-image: url(/img/filter%20background.jpg);
+    background-repeat: no-repeat;
+    background-position: 0px -60px;
+    color: #ffffff;
+}
+.filter .price-hotels {
+    font-size: 16px;
+    line-height: 21px;
+    margin: 0px;
+    padding: 0px;
+    display: flex;    
+}
+.filter ul {
+    font-size: 14px;
+    vertical-align: 21px;
+    font-weight: normal;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+.border-form {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+.border-form-left {
+    width: 220px;
+}
+
+.filter-input-checkbox {
+    border: 2px solid white;
+}
+
+.border-form-right {
+    
+}
+
+.button-form {
+    font: inherit;
+    font-weight: normal;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.0);
+    color: #ffffff;
+    width: 132px;
+    border: 2px solid #ffffff;
+}
+
+
+/*   //  */
+
+/*   Результат поиска  */
+
+.sort {
+    
+    height: 86px;
+    
+}
+
+.sort ul {
+    display: flex;
+    list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
 }

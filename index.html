@@ -8,17 +8,17 @@
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
+    <div class="main-center">
      <header class="main-header">
         <nav class="main-nav">
-         <!--
+         
           <div class="Sedona-logo">
            <img src="img/Sedona-logo.png" width="140" height="71" alt="Sedona city logo">
           </div>
-           -->
+           
             <ul class="site-navigation">
                 <li><a href="#">информация</a></li>
                 <li><a href="#">фото и видео</a></li>
-                <li class="Sedona-logo"><img src="img/Sedona-logo.png" width="140" height="71" alt="Sedona city logo"></li>
                 <li><a href="#">карта штата</a></li>
                 <li><a href="hotels.html">гостиницы</a></li>  
             </ul>
@@ -49,8 +49,10 @@
          
          <section class="slogan">
             <div class="slogan-center">
-             <h2>седона — небольшой городок в аризоне, заслуживающий большего!</h2>
-             <p>рассмотрим 5 причин, по которым седона круче, чем гранд каньон!</p>
+             <h2>седона — небольшой городок в аризоне, заслуживающий большего!
+             </h2>
+             <p>рассмотрим 5 причин, по которым седона круче, чем гранд каньон!
+             </p>
             </div>
          </section>
          <section class="reason">
@@ -66,17 +68,17 @@
            </div>
          <ul class="reason-features">
              <li class="reason-features-item">
-                <!-- Место для декор. картинки -->
+                 <div class="reason-features-item-decor-house"></div>
                 <h3>жилье</h3>  
                 <p>рекомендуем пожить в настоящем мотеле, все как в кино!</p>
              </li>
              <li class="reason-features-item">
-                <!-- Место для декор. картинки -->
+                <div class="reason-features-item-decor-food"></div>
                 <h3>еда</h3>
                 <p>всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
              </li>
              <li class="reason-features-item">
-                <!-- Место для декор. картинки -->
+                <div class="reason-features-item-decor-present"></div>
                 <h3>сувениры</h3>  
                 <p>не только китайского, но и местного производства!</p>
              </li>
@@ -95,17 +97,17 @@
              </div>
              <ul class="reason-reverse-features">
              <li class="reason-reverse-features-item">
-                <h2>небольшая<br> прощадь</h2> 
+                <h2 class="wrapper-reason-reverse-features">небольшая прощадь</h2> 
                 <p>— №3 —</p>  
                 <p>все достопримечательности находятся очень близко</p>
              </li>
              <li class="reason-reverse-features-item">
-                <h2>красивая<br> дорога</h2>
+                <h2 class="wrapper-reason-reverse-features">красивая дорога</h2>
                 <p>— №4 —</p> 
                 <p>ехать в седону из лас-вегаса совсем не скучно!</p>
              </li>
              <li class="reason-reverse-features-item">
-                <h2>мало<br> туристов</h2> 
+                <h2 class="wrapper-reason-reverse-features">мало туристов</h2> 
                 <p>— №5 —</p>  
                 <p>большинство едет в гранд каньон и толпится там</p>
              </li>
@@ -120,17 +122,17 @@
              <form class="hotels-in-sedona" method="post" action="https://echo.htmlacademy.ru">
                  <p class="appointment-item">
                   <label for="date-of-arrival">дата заезда:</label>
-                    <input class="date-of-arrival" type="text" name="date-of-arrival" id="date-of-arrival" value="24 апреля 2017">
+                    <input class="date-items" type="text" name="date-of-arrival" id="date-of-arrival" value="24 апреля 2017">
                  </p>
                  <p class="appointment-item">
                   <label for="date-of-departure">дата выезда:</label>
-                    <input class="date-of-departure" type="text" name="date-of-departure" id="date-of-departure" value="4 июля 2017">
+                    <input class="date-items" type="text" name="date-of-departure" id="date-of-departure" value="4 июля 2017">
                  </p>
                  <p class="appointment-item">
                   <label for="number-of-adults">взрослые:</label>
-                    <input class="number-of-adults" type="text" id="number-of-adults" name="number-of-adults" value="2">
+                    <input class="date-items" type="text" id="number-of-adults" name="number-of-adults" value="2">
                   <label for="number-of-children">дети:</label>
-                    <input class="number-of-children" type="text" id="number-of-children" name="number-of-children" value="0">
+                    <input class="date-items" type="text" id="number-of-children" name="number-of-children" value="0">
                  </p>
                  <button class="button-search" type="submit">найти</button>
                  
@@ -144,9 +146,9 @@
       <p class="footer-hashtag">#visetsedona</p>
        <div class="footer-social">
          <ul>
-           <li><a class="social-button" href="#">twitter</a></li>
-           <li><a class="social-button" href="#">facebook</a></li>
-           <li><a class="social-button" href="#">youtube</a></li>
+             <li><a class="social-button social-btn-t" href="#"><span class="visually-hidden">twitter</span></a></li>
+           <li><a class="social-button social-btn-f" href="#"><span class="visually-hidden">facebook</span></a></li>
+           <li><a class="social-button social-btn-y" href="#"><span class="visually-hidden">youtube</span></a></li>
          </ul>
        </div>
         <p class="footer-copyright">
@@ -155,5 +157,6 @@
         </a>
       </p>
      </footer> 
+     </div>
   </body>
 </html>

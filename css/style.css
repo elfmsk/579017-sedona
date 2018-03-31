@@ -312,17 +312,12 @@ a {
     background-color: #766357;
     color: #ffffff;
     border: 0px;
-    
-}
-
-.button-form-search p {
     font-size: 21px;
     line-height: 26px;
     font-weight: 700;
     text-transform: uppercase;
-    margin: 0px;
-    padding: 0px;
 }
+
 .button-form-search:hover {
     background-color: #604e43;
 }
@@ -1036,7 +1031,7 @@ a.hotel-item-link:focus {
 
 .hotel-item .button-book:focus {
 	color: #857871;
-	background-color: : #503e33;
+	background-color: #503e33;
 }
 
 

@@ -19,8 +19,8 @@ a {
     margin: 0px auto;
     background-color: #ffffff;
     box-shadow:
-    -10px 0 15px -3px rgba(0, 1, 1, 0.2),
-    10px 0 15px -3px rgba(0, 1, 1, 0.2);
+    -1px 0 20px -3px rgba(0, 1, 1, 0.2),
+    1px 0 20px -3px rgba(0, 1, 1, 0.2);
 }
 
 
@@ -38,18 +38,18 @@ a {
     padding: 0px;
     list-style: none;
     display: flex;
-    justify-content: space-between;
+   
 }
 
 .site-navigation li {
-    padding: 15px 0px 15px 0px;
-    margin: 0px 0px 0px 0px;
-    width: 239px;
+    padding: 15px 0px 16px 0px;
+    margin: 0px;
+    width: 240px;
     text-align: center;
     
 }
 .site-navigation li:nth-child(2) {
-  margin-right: 244px;
+  margin-right: 240px;
 }
 
 
@@ -77,11 +77,11 @@ a {
 
 /* Селекторы блока intro */
 .intro {
-    height: 506px;
+    height: 508px;
     background-color: darkgray;
-    background-image: url(../img/background-header.jpg);
+    background-image: url(../img/background-photo.jpg);
     background-repeat: no-repeat;
-    background-position: 0px -60px;
+    background-position: top center;
 }
 .intro-welcome {
     width: 458px;
@@ -94,11 +94,18 @@ a {
 /* Селекторы блока slogan */
 .slogan {
     padding-top: 10px 0px 10px 0px;
+    
 }
 .slogan-center {
-    width: 492px;
-    margin: 60px auto 53px auto;
+    width: 500px;
+    margin: 60px auto 50px auto;
     text-align: center;
+}
+.slogan-center p {
+    margin: 27px 0px 0px 0px;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 400;
 }
 
 /* // */
@@ -112,17 +119,15 @@ a {
     padding: 0px;
 }
 
-.reason p,
-.reason-reverse p {
-    margin: 0px;
-    padding: 0px;
-   font-weight: normal; 
-}
+
 
 .reason h2,
 .reason-reverse h2 {
-    margin: 0px;
-    padding: 0px;
+    font-size: 21px;
+    line-height: 21px;
+    font-weight: 700;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
 }
 
 .reason ul,
@@ -141,7 +146,10 @@ a {
 }
 
 .reason-bg-size p {
-    margin: 20px 0px 0px 0px;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    margin: 24px 0px 0px 0px;
     padding: 0px;
 }
 .reason-center {
@@ -160,15 +168,19 @@ a {
     padding: 0px;
     display: flex;
 }
-
-
-
 .reason-features-item {
     position: relative;
     text-align: center;
     width: 400px;
-    padding: 160px 50px 60px 50px;
+    padding: 162px 50px 60px 50px;
+    margin: 0px 0px 22px 0px;
 } 
+.reason-features-item p {
+    margin: 24px 0px 0px 1px;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+}
 .reason-features-item-decor-house {
     position: absolute;
     left: 162px;
@@ -177,13 +189,12 @@ a {
     height: 72px;
     background-image: url(../img/svg-sedona/icon-1.svg);
     background-repeat: no-repeat;
-    
 }
 
 .reason-features-item-decor-food {
     position: absolute;
-    left: 162px;
-    top: 60px;
+    left: 161px;
+    top: 61px;
     width: 74px;
     height: 70px;
     background-image: url(../img/svg-sedona/icon-3.svg);
@@ -219,7 +230,14 @@ a {
 
 
 .reason-reverse-bg-size p {
-    margin: 20px 0px 0px 0px;
+    margin: 23px 0px 0px 0px;
+    padding: 0px;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+}
+.reason-reverse-bg-size h2 {
+    margin: -3px 0px 0px 0px;
     padding: 0px;
 }
 
@@ -240,21 +258,25 @@ a {
 }
 .wrapper-reason-reverse-features {
     display:inline-block;
-    width: 160px;
-      
+    width: 160px;      
 }
 .reason-reverse-features-item {
     width: 400px;
-    padding: 0px 0px 20px 0px;
+    padding: 0px 0px 40px 0px;
 }
 
 .reason-reverse-features-item {
     text-align: center;
-    margin: 50px 60px 0px 60px;
+    margin: 50px 60px 20px 60px;
 }
 .reason-reverse-features-item p{
  margin: 20px 0px 0px 0px;
  padding: 0px;
+ line-height: 21px;    
+
+}
+.reason-reverse-features-item h2 {
+    margin: -3px 0px 0px 0px;
 }
 
 .reason-reverse-features {
@@ -269,15 +291,17 @@ a {
 .form-center {
     height: 270px;
     margin: 0px;
-    padding: 10px 0px 0px 0px;
+    padding: 10px 0px 10px 0px;
     text-align: center;
 }
 .form-center h3 {
     font-size: 30px;
-    margin: 40px 0px 35px 0px;
+    margin: 43px 0px 34px 0px;
 }
 .form-center p {
-    padding: 0px 0px 20px 0px;
+    line-height: 21px;
+    padding: 0px 0px 33px 0px;
+    
 }
 
 .button-form-search {
@@ -285,12 +309,19 @@ a {
     margin: 0px;
     width: 568px;
     height: 86px;
-    font-size: 21px;
-    line-height: 26px;
     background-color: #766357;
     color: #ffffff;
     border: 0px;
     
+}
+
+.button-form-search p {
+    font-size: 21px;
+    line-height: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0px;
+    padding: 0px;
 }
 .button-form-search:hover {
     background-color: #604e43;
@@ -307,9 +338,8 @@ a {
   display: flex;
   flex-wrap: wrap;
   box-sizing: border-box;
-  padding: 55px;
+  padding: 35px 55px 55px 55px;
   width: 568px;
-  min-height: 395px;
   background-color: #ffffff;
 }
 .appointment-item-date {
@@ -318,20 +348,32 @@ a {
   justify-content: space-between;
   align-items: center;
   width: 458px;
-  margin: 0;
-  margin-bottom: 30px;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 0px;
+}
+.date-of-arrival {
+    margin: 19px 0px 0px 0px;
+}
+.date-of-departure {
+    margin: 29px 0px 0px 0px;
+}
+.adults-and-children {
+    margin: 29px 0px 44px 0px;
 }
 .appointment-item-date label {
     font-size: 14px;
     font-weight: bold;
     line-height: 26px;
     margin-right: 20px;
+    
 }
 
 
 .date-items {
   box-sizing: border-box;
   padding: 12px;
+  margin: 0px 0px 0px 0px;
   width: 346px;
   height: 38px;
   font-size: 14px;
@@ -345,8 +387,8 @@ a {
 
 .calendar {
     position: absolute;
-    right: 15px;
-    top: 10px;
+    right: 9px;
+    top: 6px;
     
 }
 .calendar-button {
@@ -371,14 +413,16 @@ a {
     display: flex;
 }
 .search-item-number label {
-    margin: 0px 30px 0px 0px;
+    margin: 0px 40px 10px 0px;
+    padding: 0px
 }
 
 .date-items-amount {
   box-sizing: border-box;
   width: 38px;
   height: 38px;
-  padding: 0px;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 10px 0px;
   font-size: 14px;
   font-weight: bold;
   line-height: 26px;
@@ -388,8 +432,8 @@ a {
 }
 .wrapper-amount-reduce-button {
     position: relative;
-    padding: 0px;
-    margin: 0px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 10px 0px;
     width: 38px;
     height: 38px;
     background-color: #f2f2f2;
@@ -408,7 +452,6 @@ a {
 }
 .amount-button-plus {
   font-size: 0;
-     
 }
 .amount-button-plus::before,
 .amount-button-plus::after {
@@ -457,10 +500,11 @@ transform: rotate(90deg);
     font: inherit;
     width: 458px;
     height: 58px;
-    margin: 0px;
-    padding: 0px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
     font-size: 21px;
     line-height: 26px;
+    text-align: center;
     text-transform: uppercase;
     color: #ffffff;
     background-color: #81b3d2;
@@ -479,8 +523,12 @@ transform: rotate(90deg);
 
 
 
-
-
+.map {
+    background-image: url(../img/map.jpg);
+    background-repeat: no-repeat;
+    height: 472px;
+    
+}
 
 
 
@@ -491,7 +539,6 @@ transform: rotate(90deg);
 
 /*   Стили для подвала  */
 .main-footer {
-    
     margin: 0px;
     padding: 10px 0px 0px 0px;
     display: flex;
@@ -574,6 +621,7 @@ transform: rotate(90deg);
 .filter {
     margin: 0px;
     padding: 0px;
+    min-height: 215px;
     background-color: gray;
     background-image: url(../img/filter%20background.jpg);
     background-repeat: no-repeat;
@@ -594,7 +642,7 @@ transform: rotate(90deg);
 }
 .border-form {
     border: 0px;
-    margin: 20px 0px 20px 70px;
+    margin: 24px 38px 20px 72px;
     padding: 0px 0px 0px 0px;
 }
 .border-form legend {
@@ -652,7 +700,7 @@ transform: rotate(90deg);
 
 .filter-range {
   width: 330px;
-  margin: 20px 70px 20px auto; 
+  margin: 22px 70px 20px auto; 
   color: #ffffff;
   text-transform: uppercase;
 }
@@ -705,40 +753,33 @@ transform: rotate(90deg);
 .price-controls input {
   width: 50px;
   margin: 0;
-
   color: inherit;
   font: inherit;
-
   background: none;
   border: none;
 }
 
 .range-controls {
   position: relative;
-
   margin-bottom: 32px;
 }
 
 .range-controls .scale {
   height: 2px;
-
   background: rgba(255, 255, 255, 0.3);
 }
 
 .range-controls .bar {
   width: 80%;
   height: 2px;
-
   background: #ffffff;
 }
 
 .range-toggle {
   position: absolute;
   top: -9px;
-
   width: 4px;
   height: 4px;
-
   background: #ababab;
   border: 8px solid #ffffff;
   border-radius: 50%;
@@ -783,7 +824,7 @@ transform: rotate(90deg);
 /*   Результат поиска  */
 .sort-wrapper {
 	display: flex;	
-	padding: 0 72px;
+	padding: 10px 72px;
 	align-items: center;
 	
 }
@@ -803,12 +844,12 @@ transform: rotate(90deg);
 .sort-type {
     font-size: 12px;
 	line-height: 18px;
-	margin: 0px 42px 0px 50px;
+	margin: 4px 42px 0px 48px;
 }
 
 .sort-items {
 	padding: 0;
-	margin: 0;
+	margin: 4px 0px 0px -2px;
 	display: flex;
 	align-items: center;
 }
@@ -854,7 +895,8 @@ transform: rotate(90deg);
 
 .up-down {
     position: absolute;
-    right: 70px;
+    top: 30px;
+    right: 64px;
 	display: flex;
 	justify-content: center;
 	margin-left: auto;
@@ -891,14 +933,15 @@ transform: rotate(90deg);
 
 .hotel-item {
 	display: flex;
-	padding: 30px 73px;
+	padding: 26px 73px 26px 73px;
 	border-bottom: 1px solid #e5e5e5;
 }
 .hotel-item-img {
-	margin-right: 28px;
+	margin: 3px 28px 0px 0px;
 }
 .hotel-item-img img {
     display: block;
+    margin: 0px 0px 0px 0px;
 }
 .hotel-item-info {
 	display: flex;
@@ -909,9 +952,9 @@ transform: rotate(90deg);
 	flex-direction: column;
 	margin-left: auto;
     display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  text-align: right;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: right;
 }
 
 a.hotel-item-link {
@@ -931,7 +974,7 @@ a.hotel-item-link:focus {
 }
 .description {
 	font-weight: normal;
-	margin: 4px 0px 7px 0px;
+	margin: 4px 0px 10px 0px;
 	display: flex;
 	justify-content: space-between;
 	width: 176px;
@@ -948,7 +991,7 @@ a.hotel-item-link:focus {
 	background-color: #f2f2f2;
 	padding: 3px 0px 3px 0px;
 	margin: 0px;
-	margin-top: 59px;
+	margin-top: 40px;
 	justify-content: center;
 }
 

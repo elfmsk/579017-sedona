@@ -13,7 +13,7 @@
         <nav class="main-nav">
          
           <div class="Sedona-logo">
-           <img src="img/Sedona-logo.png" width="140" height="71" alt="Sedona city logo">
+           <img src="img/Sedona-logo.png" width="138" height="70" alt="Sedona city logo">
           </div>
            
             <ul class="site-navigation">
@@ -27,9 +27,7 @@
      <main class="container">
          <section class="intro">
             <h2 class="visually-hidden">Welcome Sedona</h2>
-            <div class="intro-welcome">
-            <img src="img/intro-SEDONA.png" width="460" height="350" alt="WELCOME">
-            </div>
+            
             <!-- Где-то здесь вставим backgroung-image -->
             <!--
             <div class="intro-welcome">
@@ -69,17 +67,17 @@
          <ul class="reason-features">
              <li class="reason-features-item">
                  <div class="reason-features-item-decor-house"></div>
-                <h3>жилье</h3>  
+                <h2>жилье</h2>  
                 <p>рекомендуем пожить в настоящем мотеле, все как в кино!</p>
              </li>
              <li class="reason-features-item">
                 <div class="reason-features-item-decor-food"></div>
-                <h3>еда</h3>
+                <h2>еда</h2>
                 <p>всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
              </li>
              <li class="reason-features-item">
                 <div class="reason-features-item-decor-present"></div>
-                <h3>сувениры</h3>  
+                <h2>сувениры</h2>  
                 <p>не только китайского, но и местного производства!</p>
              </li>
          </ul>
@@ -117,10 +115,14 @@
             <div class="form-center">
              <h3>заинтересовались?</h3>  
              <p>укажите предпологаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в седоне</p>
-             <button class="button-form-search">поиск гостиницы в седоне</button>
+             <button class="button-form-search">
+             <p>
+             поиск гостиницы в седоне
+             </p>
+             </button>
              </div>
              <form class="hotels-in-sedona" method="post" action="https://echo.htmlacademy.ru">
-                 <p class="appointment-item-date">
+                 <p class="appointment-item-date date-of-arrival">
                   <label for="date-of-arrival">дата заезда:</label>
                     <input class="date-items" type="text" name="date-of-arrival" id="date-of-arrival" value="24 апреля 2017">
                    
@@ -134,7 +136,7 @@
                   </span>
                    </a>
                  </p>
-                 <p class="appointment-item-date">
+                 <p class="appointment-item-date date-of-departure">
                   <label for="date-of-departure">дата выезда:</label>
                     <input class="date-items" type="text" name="date-of-departure" id="date-of-departure" value="4 июля 2017">
                     <a class="calendar-button" href="#">
@@ -147,7 +149,7 @@
                  </a>
                </p>
         <div class="search-item search-item-number">
-            <p class="appointment-item-date appointment-item-date-flexleft">
+            <p class="appointment-item-date appointment-item-date-flexleft adults-and-children">
                   <label for="number-of-adults">взрослые:</label>
                     <span class="wrapper-amount-reduce-button">
                     <a class="amount-button-minus amount-button-hract" href="#">-</a>
@@ -157,8 +159,8 @@
                     <a class="amount-button-plus amount-button-hract" href="#">+</a>
                     </span>
             </p>
-            <p class="appointment-item-date appointment-item-date-flexright">
-                  <label for="number-of-children">дети:</label>
+            <p class="appointment-item-date appointment-item-date-flexright adults-and-children">
+                  <label class="children-item" for="number-of-children">дети:</label>
                     <span class="wrapper-amount-reduce-button">
                     <a class="amount-button-minus amount-button-hract" href="#">-</a>
                     </span>
@@ -168,16 +170,17 @@
                     </span>
              </p>
                  </div>
+                 
                  <button class="button-search" type="submit">найти</button>
                  
              </form>
          </section>
          <section class="map">
-         <img src="img/map.jpg" width="1200" min-height="475" alt="map">
+         
          </section>
      </main>   
      <footer class="main-footer">
-      <p class="footer-hashtag">#visetsedona</p>
+      <p class="footer-hashtag">#visitsedona</p>
        <div class="footer-social">
          <ul>
              <li><a class="social-button social-btn-t" href="#"><span class="visually-hidden">twitter</span></a></li>

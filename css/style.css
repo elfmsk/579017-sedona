@@ -42,12 +42,12 @@ a {
 }
 
 .site-navigation li:nth-child(1) {
-  padding-left: 71px;
+    padding-left: 71px;
 }
 
 .site-navigation li:nth-child(1),
 .site-navigation li:nth-child(2) {
-  text-align: left;
+    text-align: left;
 }
 
 .site-navigation li:nth-child(4) {
@@ -78,7 +78,7 @@ a {
 
 .site-navigation a:hover,
 .site-navigation a:focus {
-  color: #81b3d2;
+    color: #81b3d2;
 }
 
 /* // */
@@ -300,9 +300,9 @@ a {
 }
 
 .reason-reverse-features-item p{
- margin: 20px 0px 0px 0px;
- padding: 0px;
- line-height: 21px;    
+    margin: 20px 0px 0px 0px;
+    padding: 0px;
+    line-height: 21px;    
 }
 .reason-reverse-features-item h2 {
     margin: -3px 0px 0px 0px;
@@ -357,25 +357,25 @@ a {
 }
 
 .hotels-in-sedona {
-  position: absolute;
-  left: 316px;
-  display: flex;
-  flex-wrap: wrap;
-  box-sizing: border-box;
-  padding: 35px 55px 55px 55px;
-  width: 568px;
-  background-color: #ffffff;
+    position: absolute;
+    left: 316px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 35px 55px 55px 55px;
+    width: 568px;
+    background-color: #ffffff;
 }
 
 .appointment-item-date {
-  position: relative;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 458px;
-  margin: 0px;
-  padding: 0px;
-  margin-bottom: 0px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 458px;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 0px;
 }
 
 .date-of-arrival {
@@ -398,16 +398,16 @@ a {
 }
 
 .date-items {
-  box-sizing: border-box;
-  padding: 12px;
-  margin: 0px 0px 0px 0px;
-  width: 346px;
-  height: 38px;
-  font-size: 14px;
-  font-weight: bold;
-  text-transform: uppercase;
-  background-color: #f2f2f2;
-  border: none;
+    box-sizing: border-box;
+    padding: 12px;
+    margin: 0px 0px 0px 0px;
+    width: 346px;
+    height: 38px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #f2f2f2;
+    border: none;
 }
 
 .calendar {
@@ -427,7 +427,7 @@ a {
 }
 
 .calendar-button:active {
- fill: #81b3d2;   
+    fill: #81b3d2;   
 }
 
 .date-items:hover {
@@ -452,17 +452,17 @@ a {
 }
 
 .date-items-amount {
-  box-sizing: border-box;
-  width: 38px;
-  height: 38px;
-  padding: 0px 0px 0px 0px;
-  margin: 0px 0px 10px 0px;
-  font-size: 14px;
-  font-weight: bold;
-  line-height: 26px;
-  text-align: center;
-  background-color: #f2f2f2;
-  border: none;
+    box-sizing: border-box;
+    width: 38px;
+    height: 38px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 10px 0px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 26px;
+    text-align: center;
+    background-color: #f2f2f2;
+    border: none;
 }
 
 .wrapper-amount-reduce-button {
@@ -476,45 +476,45 @@ a {
 }
 
 .amount-button-minus {
-  position: absolute;
-  top: 17px;
-  right: 11px;
-  width: 12px;
-  height: 3px;
-  font-size: 0;
-  background-color: #a9a9a9;
-  border: 0;
+    position: absolute;
+    top: 17px;
+    right: 11px;
+    width: 12px;
+    height: 3px;
+    font-size: 0;
+    background-color: #a9a9a9;
+    border: 0;
 }
 
 .amount-button-plus {
-  font-size: 0;
+    font-size: 0;
 }
 
 .amount-button-plus::before,
 .amount-button-plus::after {
-  content: "";
-  position: absolute;
-  top: 17px; 
-  right: 13px;
-  font-size: 0;
-  width: 12px;
-  height: 3px;
-  border: 0;
-  background-color: #a9a9a9; 
+    content: "";
+    position: absolute;
+    top: 17px; 
+    right: 13px;
+    font-size: 0;
+    width: 12px;
+    height: 3px;
+    border: 0;
+    background-color: #a9a9a9; 
 }
 
 .amount-button-plus::before {
-transform: rotate(90deg); 
+    transform: rotate(90deg); 
 }
 
 .amount-button-hract:hover::before,
 .amount-button-hract:hover::after {
-  background-color: #000000; 
+    background-color: #000000; 
 }
 
 .amount-button-hract:active::before,
 .amount-button-hract:active::after {
-  background-color: #81b3d2;
+    background-color: #81b3d2;
 }
 
 .amount-button-hract:hover {
@@ -522,7 +522,7 @@ transform: rotate(90deg);
 }
 
 .amount-button-hract:active {
- background-color: #81b3d2;   
+    background-color: #81b3d2;   
 }
 
 .appointment-item-date-flexleft {
@@ -579,11 +579,11 @@ transform: rotate(90deg);
 }
 
 .footer-hashtag {
-  margin: 35px 255px 35px 132px;
-  padding: 0px;
-  font-size: 21px;
-  font-weight: 700;
-  line-height: 26px;
+    margin: 35px 255px 35px 132px;
+    padding: 0px;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 26px;
 }
 
 .footer-social ul {
@@ -603,30 +603,30 @@ transform: rotate(90deg);
 }
 
 .social-button:hover {
-  background-color: #669ec0;
+    background-color: #669ec0;
 }
 
 .social-button:active {
-  color: #88b6d1;
-  background-color: #5496bd;
+    color: #88b6d1;
+    background-color: #5496bd;
 }
 
 .social-btn-t {
-  background-image: url(../img/svg-sedona/twitter.svg);
-  background-repeat: no-repeat;
-  background-position: 15px 16px;
+    background-image: url(../img/svg-sedona/twitter.svg);
+    background-repeat: no-repeat;
+    background-position: 15px 16px;
 }
 
 .social-btn-f {
-  background-image: url(../img/svg-sedona/fb-icon.svg);
-  background-repeat: no-repeat;
-  background-position: 16px 13px;
+    background-image: url(../img/svg-sedona/fb-icon.svg);
+    background-repeat: no-repeat;
+    background-position: 16px 13px;
 }
 
 .social-btn-y {
-  background-image: url(../img/svg-sedona/youtube.svg);
-  background-repeat: no-repeat;
-  background-position: 13px 15px;
+    background-image: url(../img/svg-sedona/youtube.svg);
+    background-repeat: no-repeat;
+    background-position: 13px 15px;
 }
 
 .copyright {
@@ -707,27 +707,27 @@ transform: rotate(90deg);
 }
 
 .filter-input-checkbox:not(:checked) + label::before {
-  content: "";
-  position: absolute;
-  left: -40px;
-  top: 2px;
-  width: 27px;
-  height: 25px;
-  background-image: url("../img/svg-sedona/checkbox-off.svg");
-  background-repeat: no-repeat;
-  background-position: 0 0;
+    content: "";
+    position: absolute;
+    left: -40px;
+    top: 2px;
+    width: 27px;
+    height: 25px;
+    background-image: url("../img/svg-sedona/checkbox-off.svg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
 }
 
 .filter-input-checkbox:checked + label::after {
-  content: "";
-  position: absolute;
-  top: 2px;
-  left: -40px;
-  width: 27px;
-  height: 25px;
-  background-image: url("../img/svg-sedona/checkbox-on.svg");
-  background-repeat: no-repeat;
-  background-position: 0 0;
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: -40px;
+    width: 27px;
+    height: 25px;
+    background-image: url("../img/svg-sedona/checkbox-on.svg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
 }
 
 .border-form-left {
@@ -743,121 +743,121 @@ transform: rotate(90deg);
 }
 
 .filter-range {
-  width: 330px;
-  margin: 22px 70px 20px auto; 
-  color: #ffffff;
-  text-transform: uppercase;
+    width: 330px;
+    margin: 22px 70px 20px auto; 
+    color: #ffffff;
+    text-transform: uppercase;
 }
 
 .filter-range-title {
-  margin: 5px 0px 10px 11px;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 21px;
+    margin: 5px 0px 10px 11px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
 }
 
 .price-controls {
-  position: relative;
-  height: 32px;
-  margin: 0px 0px 20px 10px;    
-  font-size: 0;
-  border: 2px solid #ffffff;
-  border-radius: 2px;
+    position: relative;
+    height: 32px;
+    margin: 0px 0px 20px 10px;    
+    font-size: 0;
+    border: 2px solid #ffffff;
+    border-radius: 2px;
 }
 
 .price-controls::after {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 2px;
-  height: 22px;
-  background: #ffffff;
-  transform: translate(-50%, -50%);
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 2px;
+    height: 22px;
+    background: #ffffff;
+    transform: translate(-50%, -50%);
 }
 
 .price-controls label {
-  display: inline-block;
-  font-size: 14px;
-  line-height: 38px;
-  vertical-align: top;
-  cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 38px;
+    vertical-align: top;
+    cursor: pointer;
 }
 
 .price-controls .min-price,
 .price-controls .max-price {      
-  width: 90px;
-  padding: 0px 0px 0px 65px;
-  margin: -3px -8px 0px 0px;
+    width: 90px;
+    padding: 0px 0px 0px 65px;
+    margin: -3px -8px 0px 0px;
 }
 
 .price-controls input {
-  height: 36px;
-  width: 50px;
-  margin: 0;
-  color: inherit;
-  font: inherit;
-  background: none;
-  border: none;
+    height: 36px;
+    width: 50px;
+    margin: 0;
+    color: inherit;
+    font: inherit;
+    background: none;
+    border: none;
 }
 
 .range-controls {
-  position: relative;
-  margin: 0px 0px 32px 10px;
+    position: relative;
+    margin: 0px 0px 32px 10px;
 }
 
 .range-controls .scale {
-  height: 2px;
-  background: rgba(255, 255, 255, 0.3);
+    height: 2px;
+    background: rgba(255, 255, 255, 0.3);
 }
 
 .range-controls .bar {
-  width: 80%;
-  height: 2px;
-  background: #ffffff;
+    width: 80%;
+    height: 2px;
+    background: #ffffff;
 }
 
 .range-toggle {
-  position: absolute;
-  top: -9px;
-  width: 4px;
-  height: 4px;
-  background: #ababab;
-  border: 8px solid #ffffff;
-  border-radius: 50%;
-  box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2);
-  cursor: pointer;
+    position: absolute;
+    top: -9px;
+    width: 4px;
+    height: 4px;
+    background: #ababab;
+    border: 8px solid #ffffff;
+    border-radius: 50%;
+    box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2);
+    cursor: pointer;
 }
 
 .range-toggle:hover {
-  background: #1c4f80;
+    background: #1c4f80;
 }
 
 .range-toggle-min {
-  left: 0;
+    left: 0;
 }
 
 .range-toggle-max {
-  left: 79%;
+    left: 79%;
 }
 
 .btn-transparent {
-  display: block;
-  margin: 0 auto;
-  padding: 6px 35px;
-  font-size: 14px;
-  line-height: 20px;
-  color: #ffffff;
-  text-transform: uppercase;
-  background: transparent;
-  border: 2px solid #ffffff;
-  border-radius: 2px;
-  cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    padding: 6px 35px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #ffffff;
+    text-transform: uppercase;
+    background: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 2px;
+    cursor: pointer;
 }
 
 .btn-transparent:hover {
-  color: #000000;
-  background: #ffffff;
+    color: #000000;
+    background: #ffffff;
 }
 
 /*   //  */
@@ -1026,8 +1026,8 @@ a.hotel-item-link:focus {
 }
 
 .hotel-star {
-  margin: 2px 0px 0px 0px;
-  padding: 0;
+    margin: 2px 0px 0px 0px;
+    padding: 0;
 }
 
 .rating {
@@ -1086,14 +1086,14 @@ a.hotel-item-link:focus {
 .visually-hidden:not(:focus):not(:active),
 input[type="checkbox"].visually-hidden,
 input[type="radio"].visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }

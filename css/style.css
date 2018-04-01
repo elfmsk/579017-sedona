@@ -9,6 +9,7 @@ body {
     color: #000000;
     background-color: #f2f2f2;
 }
+
 a {
     text-decoration: none;
 }
@@ -31,7 +32,6 @@ a {
     font-weight: 700;
     width: 1200px;
     position: relative;
-    
 }
 
 .site-navigation {
@@ -39,7 +39,6 @@ a {
     padding: 0px;
     list-style: none;
     display: flex;
-   
 }
 
 .site-navigation li:nth-child(1) {
@@ -89,8 +88,8 @@ a {
     padding: 0px;
 }
 
-
 /* Селекторы блока intro */
+
 .intro {
     height: 508px;
     background-color: darkgray;
@@ -653,6 +652,7 @@ transform: rotate(90deg);
 /*   //  */
 
 /*   CТРАНИЦА HOTEL  */
+
 /*   Стили для блока filter  */
 
 .site-navigation-active a {
